@@ -24,7 +24,7 @@ public class ExemploPolimorfismo {
     switch(select){
     
           
-            case 1:cole.engadirVehiculo(coche);
+            case 1:cole.engadirVehiculo(ExemploPolimorfismo.datosCamion());
             break;
             case 2:cole.engadirVehiculo(ExemploPolimorfismo.datosCoche());
             break;
