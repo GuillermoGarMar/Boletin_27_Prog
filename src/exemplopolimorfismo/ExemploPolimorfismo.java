@@ -8,16 +8,10 @@ public class ExemploPolimorfismo {
    
     public static void main(String[] args) {
        ColeccionVehiculo cole = new ColeccionVehiculo();
-    Vehiculo coche = new Coches();
+   
      
     int select;
-    
-    
-    
-    
-    
-    
-    
+       
     do{
         
     select = Integer.parseInt(JOptionPane.showInputDialog("elija la opción \n 1.Camión \n 2.Coche \n 3. ver Prezo \n 4.Mostrar"));
